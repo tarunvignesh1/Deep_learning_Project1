@@ -18,6 +18,7 @@ from torchvision import models, datasets, transforms
 import matplotlib.pyplot as plt
 import splitfolders
 
+
 datapath = 'D:\TarunDocs\Kaggle\data'
 
 
