@@ -1,7 +1,4 @@
-import tensorflow as tf
+import pandas as pd
 
-hello_constant = tf.constant('hello')
-
-print(hello_constant)
-print(tf.__version__)
-
+inputfile = pd.read_csv('D:/TarunDocs/Kaggle/train.csv')
+print(inputfile.shape)
